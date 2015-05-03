@@ -7,40 +7,12 @@
   <%= csrf_meta_tags %>
 </head>
 <body data-spy="scroll" data-target=".navbar-collapse">
-  <div class="navbar navbar-inverse navbar-fixed-top animated">
-    <div class="container">
-      <div class="navbar-header">
-        <%= link_to "Sydney IT Jobs", "", class:"navbar-brand"%>
-          <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-      </div>
-      <div class="collapse navbar-collapse">
-        <ul class="nav navbar-nav">
-          
-          <li class="nav_item">
-            <%= link_to "Our Mission", "" %>
-          </li>
-          <li class="nav_item">
-            <%= link_to "Contact", "" %>
-          </li>
-        </ul>
-        <div class="nav_item_login">
-            <%= link_to "Login", "", class:"btn btn-success"%>
-        </div>
-      </div>
-      
-      
-    </div>
-    
-  </div>
+  <%= render 'layouts/navigation'%>
   
   <%= yield %>
-  <div class="footer">
-    <p>&copy; Sydney IT Jobs 2015</p>
-  </div>
+  
+  <%= render 'layouts/footer'%>
+  
 
   
 </body>
