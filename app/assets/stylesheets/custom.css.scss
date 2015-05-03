@@ -1,0 +1,92 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+.navbar{
+    background-color:black;
+}
+.navbar-brand{
+    font-size: 30px;
+    color: #5CB85C !important;
+    font-weight: bold;
+    border-right: 4px solid #5CB85C;
+    border-left: 4px solid #5CB85C;
+    background-color:black;
+    transition: all 0.4s ease 0s;
+    
+}
+.nav_item{
+    margin-left: 25px;
+    float: left;
+    font-size: 20px;
+    letter-spacing: -1px;
+    
+    
+}
+
+.nav_item_login{
+    float: right;
+    margin-top: 8px;
+}
+
+.home-img{
+    height:600px;
+    width:100%;
+}
+
+.caption{
+    
+    height:290px;
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+    opacity: .7;
+    color:black;
+    border-radius:20px;
+}
+    
+.carousel-caption{
+    z-index: 10;
+}
+
+.heading{
+    font-size:40px;
+   padding-top:50px;
+}
+
+.subheading{
+    font-size:20px;
+    
+}
+
+#signup{
+    margin:30px;
+}
+
+body{
+    background-color:#313131;
+}
+
+.midrow{
+    color:#5CB85C;
+}
+
+.left{
+    color:white;
+    text-align:left;
+    font-size:15px;
+    letter-spacing:.5px;
+}
+
+.footer{
+ 
+    height:30px;
+    border-top: 2px solid grey;
+    padding:10px;
+    margin-top: 25px;
+    color: white;
+    text-align: center;
+
+
+}
+
