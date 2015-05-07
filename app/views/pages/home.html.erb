@@ -1,48 +1,81 @@
 
 
-    <div class="landingpage_content">
-        <div class="frontcontent">
+<div class="landingpage_content">
+    <div class="frontcontent">
         <%= image_tag("img1.jpg",  class:"home-img")%>
-            <div class="carousel-caption">
-                <div class="caption">
-                    <h1 class="heading">Welcome to Sydney IT Jobs</h1>
-                    <p class="subheading">Sign Up and introduce yourself to new opportunities</p>
-                    <%= link_to "Sign Up now!", "",class:"btn btn-lg btn-primary", id:"signup"   %>
-                </div>
+        <div class="carousel-caption">
+            <div class="caption">
+                <h1 class="heading">Welcome to Sydney IT Jobs</h1>
+                <p class="subheading">Sign Up and introduce yourself to new opportunities</p>
+                <%= link_to "Sign Up now!", "",class:"btn btn-lg btn-primary", id:"signup"   %>
             </div>
+        </div>
+    </div>
+        
+    <div class="test" id = "sliderArea">
+        <div id="Carousel" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false">
+      
+         <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#Carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#Carousel" data-slide-to="1"></li>
+            <li data-target="#Carousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="active item carouselBackground">
+                <%= image_tag("slide1.jpg",  class:"slide-img")%>
+                
             </div>
-    
+          
+            <div class="item carouselBackground">
+                <%= image_tag("slide2.jpg",  class:"slide-img")%>
+            </div>
+          
+            
+        </div>
+      
+        <a class="left carousel-control" href="#Carousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#Carousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+        </a>
+        </div>
+    </div>
+
     <div class="container" id="home-row-container">
-    <div class="row">
-        <div class="col-lg-4">
-            <h3 class="midrow">
-                View Jobs as Guest User
-            </h3>
-            <h2 class="left">
-                Browse and view jobs as Guest User and Sign Up later.
-            </h2>
-            <p><%= link_to "Browse Jobs", "",class:"btn btn-small btn-success" %></p>
-        </div>
+        <div class="row">
+            <div class="col-lg-4">
+                <h3 class="midrow">
+                    View Jobs as Guest User
+                </h3>
+                <h2 class="left">
+                    Browse and view jobs as Guest User and Sign Up later.
+                </h2>
+                <p><%= link_to "Browse Jobs", "",class:"btn btn-small btn-success" %></p>
+            </div>
         
-        <div class="col-lg-4">
-            <h3 class="midrow">
-                Success Stories.
-            </h3>
-            <h2 class="left">
-                Listen directly from the people who benefitted themselves from our portal
-            </h2>
-            <p><%= link_to "Reviews", "",class:"btn btn-small btn-success" %></p>
-        </div>
+            <div class="col-lg-4">
+                <h3 class="midrow">
+                    Success Stories.
+                </h3>
+                <h2 class="left">
+                    Listen directly from the people who benefitted themselves from our portal
+                </h2>
+                <p><%= link_to "Reviews", "",class:"btn btn-small btn-success" %></p>
+            </div>
         
-        <div class="col-lg-4">
-            <h3 class="midrow">
-                Know more about us.
-            </h3>
-            <h2 class="left">
-                We are here to help you achieve your professional goals.
-            </h2>
-            <p><%= link_to "About Us", "",class:"btn btn-small btn-success" %></p>
+            <div class="col-lg-4">
+                <h3 class="midrow">
+                    Know more about us.
+                </h3>
+                <h2 class="left">
+                    We are here to help you achieve your professional goals.
+                </h2>
+                <p><%= link_to "About Us", "",class:"btn btn-small btn-success" %></p>
+            </div>
         </div>
     </div>
-    </div>
-    </div>
+</div>
