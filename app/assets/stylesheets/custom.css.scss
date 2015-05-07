@@ -50,8 +50,13 @@
     color:black;
     border-radius:20px;
 }
+
+.frontcontent{
+    position: relative;
+}
     
 .carousel-caption{
+    position: absolute;
     top: 30%;
     z-index: 10;
 }
