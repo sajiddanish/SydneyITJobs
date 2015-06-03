@@ -26,3 +26,45 @@ Things you may want to cover:
 
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
+
+testing spec for jobs:
+
+title: string
+summary: text
+description: text
+
+- title must be present
+- title must be between 5 and 100 characters 
+- summary must be present
+- summary must be between 10 and 500 characters
+- description must be present
+- description must be between 10 and 1500 characters
+- user_id must be present
+
+
+testing spec for user:
+
+username: string
+email: string
+phone: string
+experstise: text
+experience: string
+skills: text
+location: string
+
+- username must be present
+- username must be between 2 and 40 characters 
+- email must be present
+- email must be unique (since we'll use this for logins later)
+- email must be valid
+- experstise must be present
+- experstise must be between 10 and 100 characters
+- experience must be present
+- experience must be between 4 and 100 characters
+- skills must be present
+- skills must be between 10 and 500 characters
+- location must be present
+- location must be between 2 and 25 characters
+
+- user_id must be present
+
